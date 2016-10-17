@@ -15,11 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Sobrenomes"></activity>
-        <activity android:name=".Femininos"></activity>
-        <activity android:name=".Masculinos"></activity>
->>>>>>> origin/master
->>>>>>> origin/master
+        <activity android:name=".Sobrenomes" />
+        <activity android:name=".Femininos" />
+        <activity android:name=".Masculinos" />
+        >>>>>>> origin/master
+        >>>>>>> origin/master
+        <activity android:name=".Outros"></activity>
     </application>
 
 </manifest>
