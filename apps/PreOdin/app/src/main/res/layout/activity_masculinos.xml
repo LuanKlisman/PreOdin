@@ -7,17 +7,21 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.a06235434.preodin.Masculinos">
+    tools:context="com.example.a06235434.preodin.Masculinos"
+    android:background="@color/dim_foreground_material_dark"
+    android:longClickable="false">
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:text="MASCULINOS"
         android:id="@+id/buttonTextMasc"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="79dp"
+        android:textSize="30dp"
+        android:background="#42a1f3"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,9 +29,12 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="ESCOLHA UMA LETRA ABAIXO"
         android:id="@+id/textView2"
-        android:layout_marginTop="82dp"
-        android:layout_below="@+id/buttonTextMasc"
-        android:layout_centerHorizontal="true" />
+        android:editable="false"
+        android:elegantTextHeight="false"
+        android:textIsSelectable="false"
+        android:layout_above="@+id/btnMascA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -36,7 +43,10 @@
         android:id="@+id/btnMascA"
         android:width="20dp"
         android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -45,7 +55,9 @@
         android:id="@+id/btnMascB"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascA"
-        android:layout_toEndOf="@+id/btnMascA" />
+        android:layout_toEndOf="@+id/btnMascA"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -54,7 +66,9 @@
         android:id="@+id/btnMascC"
         android:width="20dp"
         android:layout_centerVertical="true"
-        android:layout_toEndOf="@+id/btnMascB" />
+        android:layout_toEndOf="@+id/btnMascB"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -63,7 +77,8 @@
         android:id="@+id/btnMascD"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascC"
-        android:layout_toEndOf="@+id/btnMascC" />
+        android:layout_toEndOf="@+id/btnMascC"
+        android:background="#42a1f3" />
 
     <Button
         android:layout_width="wrap_content"
@@ -72,7 +87,9 @@
         android:id="@+id/btnMascE"
         android:width="20dp"
         android:layout_centerVertical="true"
-        android:layout_toEndOf="@+id/btnMascD" />
+        android:layout_toEndOf="@+id/btnMascD"
+        android:background="#42a1f3"
+        android:layout_marginLeft="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -81,7 +98,11 @@
         android:id="@+id/btnMascF"
         android:width="20dp"
         android:layout_below="@+id/btnMascA"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="#42a1f3"
+        android:layout_toStartOf="@+id/btnMascG"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -90,7 +111,9 @@
         android:id="@+id/btnMascG"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascF"
-        android:layout_alignStart="@+id/btnMascB" />
+        android:layout_alignStart="@+id/btnMascB"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -99,7 +122,9 @@
         android:id="@+id/btnMascH"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascG"
-        android:layout_toEndOf="@+id/btnMascG" />
+        android:layout_toEndOf="@+id/btnMascG"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -108,7 +133,9 @@
         android:id="@+id/btnMascI"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascH"
-        android:layout_toEndOf="@+id/btnMascH" />
+        android:layout_toEndOf="@+id/btnMascH"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -117,7 +144,8 @@
         android:id="@+id/btnMascJ"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascI"
-        android:layout_toEndOf="@+id/btnMascI" />
+        android:layout_toEndOf="@+id/btnMascI"
+        android:background="#42a1f3" />
 
     <Button
         android:layout_width="wrap_content"
@@ -126,7 +154,11 @@
         android:id="@+id/btnMascK"
         android:width="20dp"
         android:layout_below="@+id/btnMascF"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="#42a1f3"
+        android:layout_toStartOf="@+id/btnMascG"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -135,7 +167,9 @@
         android:id="@+id/btnMascL"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascK"
-        android:layout_alignStart="@+id/btnMascG" />
+        android:layout_alignStart="@+id/btnMascG"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -144,7 +178,9 @@
         android:id="@+id/btnMascM"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascL"
-        android:layout_toEndOf="@+id/btnMascL" />
+        android:layout_toEndOf="@+id/btnMascL"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -153,7 +189,9 @@
         android:id="@+id/btnMascN"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascM"
-        android:layout_toEndOf="@+id/btnMascM" />
+        android:layout_toEndOf="@+id/btnMascM"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -162,7 +200,8 @@
         android:id="@+id/btnMascO"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascN"
-        android:layout_toEndOf="@+id/btnMascN" />
+        android:layout_toEndOf="@+id/btnMascN"
+        android:background="#42a1f3" />
 
     <Button
         android:layout_width="wrap_content"
@@ -171,7 +210,10 @@
         android:id="@+id/btnMascP"
         android:width="20dp"
         android:layout_below="@+id/btnMascK"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -180,7 +222,9 @@
         android:id="@+id/btnMascQ"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascP"
-        android:layout_toEndOf="@+id/btnMascP" />
+        android:layout_toEndOf="@+id/btnMascP"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -189,7 +233,9 @@
         android:id="@+id/btnMascR"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascQ"
-        android:layout_toEndOf="@+id/btnMascQ" />
+        android:layout_toEndOf="@+id/btnMascQ"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -198,7 +244,9 @@
         android:id="@+id/btnMascS"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascR"
-        android:layout_toEndOf="@+id/btnMascR" />
+        android:layout_toEndOf="@+id/btnMascR"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -207,7 +255,8 @@
         android:id="@+id/btnMascT"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascS"
-        android:layout_toEndOf="@+id/btnMascS" />
+        android:layout_toEndOf="@+id/btnMascS"
+        android:background="#42a1f3" />
 
     <Button
         android:layout_width="wrap_content"
@@ -216,7 +265,9 @@
         android:id="@+id/btnMascU"
         android:width="20dp"
         android:layout_below="@+id/btnMascP"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="#42a1f3"
+        android:layout_marginBottom="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -225,7 +276,9 @@
         android:id="@+id/btnMascV"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascU"
-        android:layout_alignStart="@+id/btnMascQ" />
+        android:layout_alignStart="@+id/btnMascQ"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -234,7 +287,9 @@
         android:id="@+id/btnMascW"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascV"
-        android:layout_toEndOf="@+id/btnMascV" />
+        android:layout_toEndOf="@+id/btnMascV"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -243,7 +298,9 @@
         android:id="@+id/btnMascX"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascW"
-        android:layout_toEndOf="@+id/btnMascW" />
+        android:layout_toEndOf="@+id/btnMascW"
+        android:background="#42a1f3"
+        android:layout_marginRight="2dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -252,7 +309,8 @@
         android:id="@+id/btnMascY"
         android:width="20dp"
         android:layout_alignTop="@+id/btnMascX"
-        android:layout_toEndOf="@+id/btnMascX" />
+        android:layout_toEndOf="@+id/btnMascX"
+        android:background="#42a1f3" />
 
     <Button
         android:layout_width="wrap_content"
@@ -261,6 +319,7 @@
         android:id="@+id/btnMascZ"
         android:width="20dp"
         android:layout_below="@+id/btnMascU"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="#42a1f3" />
 
 </RelativeLayout>
