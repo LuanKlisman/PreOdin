@@ -16,6 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Femininos"></activity>
+        <activity android:name=".Masculinos"></activity>
+>>>>>>> origin/master
     </application>
 
 </manifest>
