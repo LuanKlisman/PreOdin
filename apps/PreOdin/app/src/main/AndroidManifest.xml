@@ -16,6 +16,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Sobrenomes"></activity>
+        <activity android:name=".Femininos"></activity>
+        <activity android:name=".Masculinos"></activity>
+>>>>>>> origin/master
+>>>>>>> origin/master
     </application>
 
 </manifest>
